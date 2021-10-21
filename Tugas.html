@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <Style>
+        body {
+            padding-top: 56px;
+        }
+
+        .jumbotron {
+            text-shadow: #000 1px 1px;
+        }
+
+        .background-header {
+            background-image: url("assets/images/background.jpg");
+            background-color: #fafbfc;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .button-primer {
+            background-color: #00bd83;
+            border-color: #0b9b6b;
+            color: #fff;
+            text-shadow: 0px 0px;
+        }
+
+        .button-primer:hover {
+            background-color: #038c6a;
+            color: #fff;
+            text-shadow: 0px 0px;
+        }
+
+        .button-sekunder {
+            background-color: transparent;
+            border: #dbdbdb;
+            color: #0b9b6b;
+        }
+
+        .button-sekunder:hover {
+            background-color: #0b9b6b;
+            border-color: #dbdbdb;
+            color: #fff;
+        }
+
+        .cover {
+            background: no-repeat center/cover;
+        }
+
+        .service-style {
+            margin-top: 15px;
+            background-color: transparent;
+        }
+
+        .container-fluid-max {
+            max-width: 1140px;
+        }
+
+        .text-green {
+            color: #0b9b6b;
+        }
+
+        .bg-dark {
+            background-color: #f25757;
+        }
+
+        h2:before,
+        h2:after {
+            background-color: #0b9b6b;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 25%;
+        }
+
+        h2:before {
+            right: 0.5rem;
+            margin-left: -50%;
+        }
+
+        h2:after {
+            left: 0.5rem;
+            margin-right: -50%;
+        }
+    </Style>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Navigasi bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/images/unnamed.jpg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <section id="home" class="jumbotron jumbotron-fluid background-header">
+        <div class="container-fluid text-center">
+            <h1 class="display-3" style="color: aliceblue;">Solusi Terbaik Belanja Onlinemu</h1>
+            <p class="lead" style="font-weight: bold;color: white;">Jual beli barang secara online tak pernah semudah
+                ini. Bangun bisnis Anda dengan website Online Shop ini.</p>
+            <a href="#" class="btn btn-lg button-primer" role="button">PILIH WEBSITE INI</a>
+            <a href="#" class="btn btn-lg btn-secondary" role="button">LIHAT DEMO</a>
+        </div>
+    </section>
+    <!-- Service -->
+    <section id="service" class="service-style container-fluid container-fluid-max">
+        <div class="row text-center">
+            <div class="col-12 pb-4">
+                <h2 class="display-4 text-center mb-5" style="margin-top: 4rem!important;">
+                    Fitur Terbaik Website Belanja Online
+                </h2>
+                <p>Niagahoster siap mewujudkan impian Anda untuk membuat website profesional dengan beberapa klik
+                    saja! Pilih tema website yang diinginkan dan website Anda siap digunakan. Bingung cara
+                    mengelolanya? Kami punya layanan support dan panduan lengkap untuk setiap website Anda.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <i class="fas fa-list-ol fa-stack-1x text-white"></i>
+                </span>
+                <h3>Bersertifikasi</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <i class="fas fa-laptop-code fa-stack-1x text-white"></i>
+                </span>
+                <h3>Barang Lengkap</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <i class="fas fa-money-bill fa-stack-1x text-white"></i>
+                </span>
+                <h3>Harga Terjangkau</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <i class="fas fa-chart-line fa-stack-1x text-white"></i>
+                </span>
+                <h3>Kualitas Oke</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Product -->
+    <section id="product" class="container">
+        <div class="row text-center">
+            <div class="col-12 pb-4">
+                <h2 class="display-4 text-center mb-5" style="margin-top: 4rem!important;">
+                    Produk Kami
+                </h2>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/images.jfif" alt="Produk-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Aksesoris</h5>
+                        <p class="card-text">Belajar membuat aplikasi android (Kotlin) berbasis lokasi dan studil</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn button-sekunder">Lihat Detail & Harga &raquo;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/rak-pakaian.jpg" alt="Produk-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Pakaian</h5>
+                        <p class="card-text">Belajar langkah demi langkah membangun sistem informasi perpustakaan
+                            dengan laravel
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn button-sekunder">Lihat Detail & Harga &raquo;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/sneaker.jpeg" alt="Produk-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Sepatu</h5>
+                        <p class="card-text">Belajar membangun website toko online menggunakan Framework PHP CodeIgniter
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn button-sekunder">Lihat Detail & Harga &raquo;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/barang-jualan-online-paling-laris-skincare.jpeg" alt="Produk-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Skincare</h5>
+                        <p class="card-text">Belajar membangun website toko online menggunakan Framework React.JS
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn button-sekunder">Lihat Detail & Harga &raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+    <section id="about" class="bg-light">
+        <div class="container-fluid">
+            <h2 class="display-4 text-center mb-5" style="margin-top: 5rem!important;">Tentang Kami</h2>
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6">
+                    <div style="padding: 15px;">
+                        <h3 class="display-5 text-center text-green mt-3 mb-3">List Produk Modern</h3>
+                        <p class="text-center">Fitur ini memungkinkan Anda untuk menyusun list produk dengan gaya yang
+                            modern. Anda hanya butuh gambar dengan resolusi yang bagus untuk memperkaya daftar produk
+                            Anda di sini.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="vh-100 cover" style="background-image: url('assets/images/list.jpg');"></div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="vh-100 cover" style="background-image: url('assets/images/ICON-w-pak-adi.png');"></div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div style="padding: 15px;">
+                        <h3 class="display-5 text-center text-green mt-3 mb-3">Profil Pelanggan</h3>
+                        <p class="text-center">Anda dapat membuat member area khusus untuk pelanggan Anda di sini.
+                            Gunakan fitur ini untuk menyusun strategi pemasaran ke depan melalui data.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div style="padding: 15px;">
+                        <h3 class="display-5 text-center text-green mt-3 mb-3">Mudah Dikustomisasi</h3>
+                        <p class="text-center">Setiap produk yang Anda unggah di sini mempunyai detail yang bisa Anda
+                            edit. Contohnya, jika produk Anda adalah baju, maka Anda bisa memasukkan keterangan warna
+                            dan ukuran di kolom produk ini.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="vh-100 cover" style="background-image: url('assets/images/sell-products-online.jpg');"></div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="vh-100 cover" style="background-image: url('assets/images/hmgoepprod.jpg');"></div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div style="padding: 15px;">
+                        <h3 class="display-5 text-center text-green mt-3 mb-3">Integrasi Marketplace</h3>
+                        <p class="text-center">Apakah produk Anda juga ada di platfrom media lain seperti media sosial
+                            atau marketplace? Tenang saja! Anda bisa menghubungkan akun bisnis Anda di platfrom tersebut
+                            dengan website ini dan semakin meningkatkan kredibilitas bisnis Anda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- kontak -->
+    <section id="contact" class="container-fluid text-center" style="border-color: #e9f2eb; padding: 25px;">
+        <h2 class="display-4 pb-4">Hubungi Kami Sekarang</h2>
+        <p class="lead pb-3">Kirim pesan untuk membeli barang kami.</p>
+        <a href="" class="btn btn-lg button-primer mb-4">WhatsApp Kami</a>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark">
+        <div class="col-lg-12" style="padding: 10px">
+            <div style="text-align: center;">
+                <a href="#" class="text-light" style="padding: 5px;"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-light" style="padding: 5px;"><i class="fab fa-twitter"></i></a>
+                <a href="instagram.com/rltaaa_" class="text-light" style="padding: 5px;"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+            <p class="text-center text-secondary">Copyright &copy Rulita_Deli</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
